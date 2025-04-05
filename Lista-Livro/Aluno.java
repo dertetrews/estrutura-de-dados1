@@ -37,7 +37,5 @@ public class Aluno {
         for (Aluno aluno : alunos) {
             System.out.println(aluno.toString());
         }
-
-        scanner.close();
     }
 }
