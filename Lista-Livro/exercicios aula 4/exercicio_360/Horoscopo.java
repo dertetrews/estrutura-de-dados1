@@ -33,7 +33,7 @@ public class Horoscopo {
         }
     }
 
-    public static void main(String[] args) {
+    public void Inicio(){
         Scanner scanner = new Scanner(System.in);
         Horoscopo horoscopo = new Horoscopo();
 

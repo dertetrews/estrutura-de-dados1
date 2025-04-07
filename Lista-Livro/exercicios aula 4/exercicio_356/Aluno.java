@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class AlunoB {
+public class Aluno {
     String nome;
     double pr1, pr2, media;
     String situacao;
 
-    public AlunoB(String nome, double pr1, double pr2) {
+    public Aluno (String nome, double pr1, double pr2) {
         this.nome = nome;
         this.pr1 = pr1;
         this.pr2 = pr2;
@@ -17,7 +17,7 @@ public class AlunoB {
         return "Nome: " + nome + ", PR1: " + pr1 + ", PR2: " + pr2 + ", Média: " + String.format("%.1f", media) + ", Situação: " + situacao;
     }
 
-    public static void main(String[] args) {
+    public  void Inicio() {
         Scanner scanner = new Scanner(System.in);
         Aluno[] alunos = new Aluno[15];
 

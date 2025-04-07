@@ -12,7 +12,7 @@ public class Mercadoria {
         return precoVenda > precoCompra;
     }
 
-    public static void main(String[] args) {
+    public void Inicio(){
         Scanner scanner = new Scanner(System.in);
         int contador = 0;
 
