@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MenuManipulacaoVetores {
-    public static void main(String[] args) {
+    public void Inicio(){
         Scanner scanner = new Scanner(System.in);
         int[] vetorA = new int[5];
         int[] vetorB = new int[5];
@@ -62,7 +62,7 @@ public class MenuManipulacaoVetores {
         scanner.close();
     }
 
-    // Função para imprimir um vetor
+
     public static void imprimirVetor(int[] vetor) {
         for (int i = 0; i < vetor.length; i++) {
             System.out.print(vetor[i] + " ");
@@ -70,7 +70,7 @@ public class MenuManipulacaoVetores {
         System.out.println();
     }
 
-    // Função para somar dois vetores
+
     public static int[] somaVetores(int[] vetorA, int[] vetorB) {
         int[] resultado = new int[vetorA.length];
         for (int i = 0; i < vetorA.length; i++) {
@@ -79,7 +79,7 @@ public class MenuManipulacaoVetores {
         return resultado;
     }
   
-    // Função para subtrair dois vetores
+
     public static int[] subtraiVetores(int[] vetorA, int[] vetorB) {
         int[] resultado = new int[vetorA.length];
         for (int i = 0; i < vetorA.length; i++) {

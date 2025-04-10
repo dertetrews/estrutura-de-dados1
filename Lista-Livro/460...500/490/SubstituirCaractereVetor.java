@@ -21,7 +21,7 @@ public class SubstituirCaractereVetor {
     return totalRetirado;
 }
 
-    public static void main(String[] args) {
+    public void Inicio(){
         Scanner scanner = new Scanner(System.in);
 
         // Solicita ao usuário que insira as palavras
